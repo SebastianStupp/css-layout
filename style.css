@@ -1,0 +1,12 @@
+*,
+*::after,
+**::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ebd8b4;
+    color: rebeccapurple;
+    font-size: 16px;
+}
