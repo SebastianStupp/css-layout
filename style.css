@@ -18,5 +18,24 @@ body {
     bottom: 0;
     background-color: royalblue;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.footer-nav__btn {
+    font-size: 100px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 4s;
+    width: 50px;
+    height: 50px;
+}
+.footer-nav__btn:hover {
+    background-color: tomato;
+    font-size: 150px;
+}
+
+.footer-nav--btnactive {
+    background-color: teal;
 }
