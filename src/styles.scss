@@ -1,12 +1,9 @@
+@import 'base';
 *,
 *::after,
 *::before {
     box-sizing: border-box;
 }
-$base-color: rgb(209, 207, 112);
-$btn-color: rgb(255, 136, 0);
-$hover-color: tomato;
-$btn-active-color: teal;
 
 body {
     margin: 0;
