@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+$base-color: rgb(209, 207, 112);
+$btn-color: rgb(255, 136, 0);
+$hover-color: tomato;
+$btn-active-color: teal;
+
+body {
+    margin: 0;
+    background-color: $base-color;
+    color: rebeccapurple;
+    font-size: 16px;
+}
+
+.footer-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav__btn {
+    font-size: 100px;
+    background-color: $btn-color;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 4s;
+    width: 50px;
+    height: 50px;
+}
+.footer-nav__btn:hover {
+    background-color: $hover-color;
+    font-size: 150px;
+}
+
+.footer-nav--btnactive {
+    background-color: $btn-active-color;
+}
