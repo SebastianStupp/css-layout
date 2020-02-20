@@ -20,3 +20,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.btn {
+    font-size: 100px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 5s;
+}
+.btn:hover {
+    background-color: tomato;
+    font-size: 150px;
+}
+
+.btnactive {
+    background-color: teal;
+}
